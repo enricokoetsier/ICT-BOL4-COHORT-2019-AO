@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+   <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+   <title>Pizza Calcualtor 1.1</title>
+</head>
+<body>
+  <h1>Pizza Calculator</h1>
+  <script type="text/javascript">
+  //Enrico Koetsier, opdracht: pizza calculator;
+const PIZZASMALL = 4.99;
+const PIZZAMEDIUM = 7.99;
+const PIZZALARGE = 9.99;
+
+alert("Wat voor type pizza wilt u?");
+var amountPizzaSmall = prompt(" Small pizza: €4,99");
+var amountPizzaMedium = prompt(" Medium pizza: €7,99");
+var amountPizzaLarge = prompt(" Large pizza: €9,99");
+var total = amountPizzaSmall*PIZZASMALL+amountPizzaMedium*PIZZAMEDIUM+amountPizzaLarge*PIZZALARGE;
+
+document.write ("Uw keuze:"+"<br><br>");
+document.write (amountPizzaSmall+" Pizza Small: €"+amountPizzaSmall*PIZZASMALL+"<br>");
+document.write (amountPizzaMedium+" Pizza Medium: €"+amountPizzaMedium*PIZZAMEDIUM+"<br>");
+document.write (amountPizzaLarge+" Pizza Large: €"+amountPizzaLarge*PIZZALARGE+"<br><br>");
+document.write ("Totaal: €"+total)
+
+
+
+</script>
+
+</body>
+</html>
