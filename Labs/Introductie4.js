@@ -20,3 +20,8 @@ else {
     alert ("We did not eat fruit")
 
 }
+//template
+if (vraag == "" ) {
+
+    var vraag = prompt("")
+    }
