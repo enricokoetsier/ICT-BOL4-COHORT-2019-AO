@@ -23,5 +23,5 @@ else {
 //template
 if (vraag == "" ) {
 
-    var vraag = prompt("")
-    }
+var vraag = prompt("")
+}
