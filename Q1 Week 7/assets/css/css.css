@@ -1,0 +1,55 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+main {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 1100px;
+}
+/*-------------Het menu en de titel-------------*/
+.gridTop {
+    background: url(img/header_bg.png);
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+    grid-gap: 15px;
+    grid-auto-rows: 100px;
+}
+.pic1 {
+    grid-column: 2/4;   
+    grid-row: 1;
+    margin-left: 50px;
+}
+.navMenu {
+    grid-column: 5/9;   
+    grid-row: 1;
+}
+/*-------------Het navigatie menu-------------*/
+.topnav {
+    overflow: hidden;
+}
+  
+.topnav a {
+    float: left;
+    color: rgb(51, 71, 91);
+    font-weight: bold;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 14px;
+    margin-top: 30px;
+}
+  
+.topnav a:hover {
+    background-color: rgb(51, 71, 91);
+    color: white;
+}
+  
+.topnav a.active {
+    background-color: rgb(51, 71, 91);
+    color: white;
+}
