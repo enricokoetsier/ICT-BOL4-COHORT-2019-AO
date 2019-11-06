@@ -1,8 +1,10 @@
+body {
+    overflow-x: hidden;
+}
 head {
     font-family: 'Archivo', sans-serif;
 }
 .up {
-
     position: absolute;
     left: 0;
     right: 0;
@@ -36,5 +38,65 @@ head {
     color: white;
 }
 .header {
-    top: 400px;
+    margin-top: 85px;
+}
+/*Banners*/
+.banner {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 700px;
+    bottom: 0;
+    margin: auto;
+    width: 1000px;
+}
+.bannergrid {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 25px;
+    grid-auto-rows: 170px;
+    margin-left: 14px;
+}
+.banner1 {
+    grid-column: 1;   
+    grid-row: 1;
+    margin-top: 20px;
+}
+.banner2 {
+    grid-column: 2;   
+    grid-row: 1;
+    margin-top: 20px;
+}
+.banner3 {
+    grid-column: 3;   
+    grid-row: 1;
+    margin-top: 20px;
+}
+/*Gele balk*/
+.geleBalk {
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    grid-gap: 0px;
+    grid-auto-rows: 200px;
+    margin-top: 300px;
+    background-color: rgb(255, 231, 24);
+}
+.geleBalk1 {
+    grid-column: 1;   
+    grid-row: 1;
+    color: black;
+    font-size: 20px;
+}
+.geleBalk2 {
+    grid-column: 2;   
+    grid-row: 1;
+    color: black;
+    font-size: 20px;
+}
+.geleBalk3 {
+    grid-column: 3;   
+    grid-row: 1;
+    color: black;
+    text-align: center;
+    font-size: 20px;
 }
