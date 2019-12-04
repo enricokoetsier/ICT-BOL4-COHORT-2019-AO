@@ -1,0 +1,11 @@
+#game-container {
+    max-width: 450px;
+    margin-top: 400px;
+    background: rgba(94, 94, 94, 0.863);
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+#button {
+    margin-right: 10px;
+}
