@@ -1,0 +1,22 @@
+body {
+    margin: 0 auto;
+    width: 600px;
+}
+input {
+
+    background-color: rgb(8, 93, 179);
+    width: 100px;
+    height: 100px;
+    border: 0px;
+    margin-top: 5px;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+button {
+    width: 516px;
+    height: 30px;
+    margin-top: 10px;
+    background-color: rgb(238, 205, 16);
+    border: 0px;
+}

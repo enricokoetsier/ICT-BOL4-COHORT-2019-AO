@@ -6,6 +6,12 @@
     padding: 10px;
     text-align: center;
 }
-#button {
+button {
     margin-right: 10px;
+    border: 0px;
+    padding: 3px;
+    background-color: white;
+}
+#inventoryItem {
+    margin-top: 5px;
 }
