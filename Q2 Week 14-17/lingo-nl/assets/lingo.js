@@ -17,7 +17,7 @@ function check() {
         if (split.includes(input.value)){
             input.style.backgroundColor = "yellow";
         }
-        if(input.value === res[i]){
+        if(input.value === split[i]){
             input.style.backgroundColor = "red";
         }
     }
